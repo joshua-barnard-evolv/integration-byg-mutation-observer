@@ -3,6 +3,6 @@ var watchForChanges = function () {
     console.log('test');
 }
 
-module.exports = {
-    watchForChanges: watchForChanges
+module.exports = function(config){
+    waitForChanges();
 }
