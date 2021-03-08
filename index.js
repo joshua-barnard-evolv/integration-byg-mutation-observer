@@ -4,5 +4,5 @@ var watchForChanges = function () {
 }
 
 module.exports = function(config){
-    waitForChanges();
+    watchForChanges();
 }
